@@ -56,6 +56,6 @@ We understand that not everyone can afford a ticket, or is able to volunteer. Th
 
 We handle this on a case-by-case basis, so please send us an email to [ml4allconf@gmail.com] explaining your situation and we'll do our best to help out.
 
-[tickets]: https://ti.to/ml4all/ml4all-2017
+[tickets]: https://ti.to/ml4all/ml4all-2018
 [ml4allconf@gmail.com]: mailto:ml4allconf@gmail.com
 [speakers]: speak.html
