@@ -6,7 +6,7 @@ cat << _EOF_
     <meta charset="utf-8">
     <title>ML4ALL - A machine learning conference for the rest of us.</title>
 
-    <meta name="description" content="ML4ALL - A machine learning conference for the rest of us. April 8-10, 2018, Portland, OR">
+    <meta name="description" content="ML4ALL - A machine learning conference for the rest of us. May 27-29, 2018, Portland, OR">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- For Twitter Cards -->
@@ -14,7 +14,7 @@ cat << _EOF_
     <meta name="twitter:site" content="@dotnetfringe">
     <meta name="twitter:creator" content="@dotnetfringe">
     <meta name="twitter:title" content="ML4ALL - A machine learning conference for the rest of us.">
-    <meta name="twitter:description" content="ML4ALL - A machine learning conference for the rest of us. April 8-10, 2018, Portland, OR">
+    <meta name="twitter:description" content="ML4ALL - A machine learning conference for the rest of us. May 27-29, 2018, Portland, OR">
     <meta name="twitter:image" content="ml4all-mascot.png">
 
     <!-- Bulma CSS Framework -->
@@ -45,7 +45,7 @@ cat << _EOF_
           </div>
           <div class="column is-7">
             <h1 class="logo"><span class="ml-logo-1">ML</span><span class="ml-logo-2">4ALL</span></h1>
-            <h2 class="logo">April 8-10, 2018 - PDX</h2>
+            <h2 class="logo">May 27-29, 2018 - PDX</h2>
           </div>
         </div>
       </div>
