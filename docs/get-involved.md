@@ -7,7 +7,7 @@ We'd love for you to get involved! There are many ways to be part of ML4ALL:
 
 - **Attend**: You might not think it's a big deal, but just showing up to the conference is a major help! We're doing this for you, and we want to have a room full of amazing people. We keep ticket prices inexpensive so you can afford to go, even if your job won't pay for it. Read more about [attending the conference][attend].
 
-- **Sponsor**: If your company wants to support the conference, we have a variety of sponsorship packages available. Send us an email at [ml4allconf@gmail.com] and our [Sponsorship Coordinator](#sponsorship-coordinator) will follow-up with all the details. 
+- **Sponsor**: If your company wants to support the conference, we have a variety of sponsorship packages available. Send us an email at [ml4allconf@gmail.com] and our [Sponsorship Coordinator](#sponsorship-coordinator) will follow-up with all the details.
 
 - **Volunteer**: We can always use more help during the conference. Maybe you could work the registration desk, help us setup or tear down at the venue, or clean up after the lunch hour. There's a ton of things to help with. We'll give you a free ticket if you commit to at least one day of volunteer work! Send us an email to [ml4allconf@gmail.com] to get started.
 
@@ -19,27 +19,27 @@ The Organizing Team
 
 ML4ALL is organized by a small team of people based primarily in Portland, Oregon. The team varies each year, but was originally founded by [Troy Howard], [Alena Hall] and [Glenn Block].
 
-Our organizing team has a variety of responsibilities that all contribute towards delivering an awesome experience for our attendees and speakers. We've formalized those into the following roles: 
+Our organizing team has a variety of responsibilities that all contribute towards delivering an awesome experience for our attendees and speakers. We've formalized those into the following roles:
 
 
 ## SUPER GENIUS OF CONF
 
-The *SUPER GENIUS OF CONF* oversees the direction of the conference, year after year, and ensures that it stays true to its mission, character and overall *vibe*. 
+The *SUPER GENIUS OF CONF* oversees the direction of the conference, year after year, and ensures that it stays true to its mission, character and overall *vibe*.
 
-Additionally, they manage the budget, set ticket pricing, manage the ticketing system, invoice sponsors and make the final decisions about how we spend the money generated from ticket sales and sponsorships. 
+Additionally, they manage the budget, set ticket pricing, manage the ticketing system, invoice sponsors and make the final decisions about how we spend the money generated from ticket sales and sponsorships.
 
-They also help the other roles organize their work and fill in wherever needed, from sweeping the floor to updating the website, to ordering stickers. 
+They also help the other roles organize their work and fill in wherever needed, from sweeping the floor to updating the website, to ordering stickers.
 
-For 2017, our *SUPER GENIUS OF CONF* is [Troy Howard].
+For 2018, our *SUPER GENIUS OF CONF* is [Troy Howard].
 
 
 ## CFP Czar
 
-The *CFP Czar* is responsible for managing everything related to our speakers. They open and close the Call For Proposals (CFP), manage the talk selection process, do outreach to invite the best speakers we can find, communicate with potential speakers when a talk is accepted or rejected, coordinate speaker travel, organize the talk schedule, and help ensure the speakers are prepared for their talk. 
+The *CFP Czar* is responsible for managing everything related to our speakers. They open and close the Call For Proposals (CFP), manage the talk selection process, do outreach to invite the best speakers we can find, communicate with potential speakers when a talk is accepted or rejected, coordinate speaker travel, organize the talk schedule, and help ensure the speakers are prepared for their talk.
 
 After the conference, they manage the process of getting videos uploaded to the site.
 
-For 2017, the ML4ALL *CFP Czar* is [Alena Hall].
+For 2018, the ML4ALL *CFP Czar* is [Alena Hall].
 
 
 ## Sponsorship Coordinator
@@ -48,14 +48,14 @@ The *Sponsorship Coordinator* is responsible for managing our relationship with 
 
 The *Sponorship Coordinator* manages the entire lifecycle of a sponsorship including negotiations, accounts payable, and delivering on our promised sponsorship benefits like: updating the website with sponsor logos, providing on-site help for promotional materials, coordinating messaging from stage or in emails, etc.
 
-For 2017, the ML4ALL *Sponsorship Coordinator* is [Glenn Block]. 
+For 2018, the ML4ALL *Sponsorship Coordinator* is [Glenn Block].
 
 
 ## Logitisics Coordinator
 
 The *Logistics Coordinator* is our on-site support system. They manage things like locating an appropriate venue, coordinating with caterers, coordinating with videographers, setting up temporary WiFi installations at the venue, renting equipment such as projection systems, chairs, and other incidentals. This is a very involved role and may require a certain amount of driving around town to collect supplies, and negotiating contracts with various service providers and vendors.
 
-For 2017, the ML4ALL *Logistics Coordinator* is [Troy Howard]. 
+For 2018, the ML4ALL *Logistics Coordinator* is [Troy Howard].
 
 NOTE: We'd love to find a replacement for Troy in this role. If you're interested, shoot us an email at [ml4allconf@gmail.com]. The *Logistics Coordinator* must be based in/around Portland.
 
@@ -64,7 +64,7 @@ NOTE: We'd love to find a replacement for Troy in this role. If you're intereste
 
 The *Brand Director* is responsible for creating the unique identity of our conference. This involves everything from ensuring the venue has the right *vibe* to creating visual assets like logos for the website and social media, managing the website theme, creating t-shirts and stickers, and ensure our communications voice is consistent.
 
-For 2017, the ML4ALL *Brand Director* is [Troy Howard]. 
+For 2018, the ML4ALL *Brand Director* is [Troy Howard].
 
 NOTE: We'd love to find a replacement for Troy in this role. If you're interested, shoot us an email at [ml4allconf@gmail.com]. The *Brand Director* can be based anywhere in the world.
 
@@ -73,7 +73,7 @@ NOTE: We'd love to find a replacement for Troy in this role. If you're intereste
 
 The *Volunteer Coordinator* is responsible for organizing members of community who would like to become volunteers. The *Volunteer Coordinator* organizes the schedule of volunteers, ensures we have enough volunteers to cover our needs, and during the conference, manages the task, questions, and other needs of the volunteer staff.
 
-For 2017, the ML4ALL *Volunteer Coordinator* is [Byron Gerlach]. 
+For 2018, the ML4ALL *Volunteer Coordinator* is [Byron Gerlach].
 
 
 ## Activities Director
@@ -82,14 +82,14 @@ The *Activities Director* is responsible for arranging the extra activities outs
 
 During these events, the *Activities Director* is also responsible for any [Code Of Conduct] problems that may come up.
 
-For 2017, the ML4ALL *Activities Director* is [Adron Hall]. 
+For 2018, the ML4ALL *Activities Director* is [Adron Hall].
 
 
 ## Emcee
 
 The *Emcee* is the face and voice of the conference on stage. They are responsible for introducing the speakers on stage, and making various announcements during the conference. The *Emcee* also manages any on-stage interaction with the crowd that may come up, especially around Q&A.
 
-For 2017, the ML4ALL *Emcee* role is shared by [Troy Howard] and [Glenn Block].
+For 2018, the ML4ALL *Emcee* role is shared by [Troy Howard] and [Glenn Block].
 
 NOTE: We'd love to find a replacement for Troy or Glenn in this role. If you're interested, shoot us an email at [ml4allconf@gmail.com]. The *Emcee* can be based anywhere in the world, but must be able to attend the conference.
 
@@ -97,15 +97,15 @@ NOTE: We'd love to find a replacement for Troy or Glenn in this role. If you're 
 
 The *Speaker Wrangler* works closely with the [Emcee](#emcee), but operates off-stage, to make sure that speakers are ready to take the stage at their scheduled time. The *Speaker Wrangler* also helps them connect to the A/V system and troubleshoot and projection or amplification problems, and helps the speaker wear their microphone. During the talk, they ensure the speaker does not run over time (gives 5 minute warning, and cuts off long-running talks).
 
-For 2017, the ML4ALL *Speaker Wrangler* is [Dave Lester].
+For 2018, the ML4ALL *Speaker Wrangler* is [Dave Lester].
 
 
 ## Communications Director
 
 The *Communications Director* is responsible for managing outbound communications and promotions via email, Twitter, and other online media. The *Communications Director* works closely with the [Brand Director](#brand-director) to ensure the voice of the brand remains consistent with the conference's identity and *vibe*.
 
-For 2017, the ML4ALL *Communications Director* is [Troy Howard]. 
- 
+For 2018, the ML4ALL *Communications Director* is [Troy Howard].
+
 [attend]: attend.html
 [ml4allconf@gmail.com]: mailto:ml4allconf@gmail.com
 [speak]: speak.html
