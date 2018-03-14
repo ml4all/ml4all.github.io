@@ -126,3 +126,11 @@ h2.logo {
   top: 300px;
   margin-top: -300px;
 }
+
+.card .title.is-4 {
+  padding-bottom: 5px;
+}
+
+#speakers h1 {
+  padding-bottom: 20px;
+}
