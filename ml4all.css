@@ -134,3 +134,7 @@ h2.logo {
 #speakers h1 {
   padding-bottom: 20px;
 }
+
+#speakers .card-content {
+  min-height: 13rem;
+}
