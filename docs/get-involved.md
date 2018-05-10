@@ -97,7 +97,7 @@ NOTE: We'd love to find a replacement for Troy or Glenn in this role. If you're 
 
 The *Speaker Wrangler* works closely with the [Emcee](#emcee), but operates off-stage, to make sure that speakers are ready to take the stage at their scheduled time. The *Speaker Wrangler* also helps them connect to the A/V system and troubleshoot and projection or amplification problems, and helps the speaker wear their microphone. During the talk, they ensure the speaker does not run over time (gives 5 minute warning, and cuts off long-running talks).
 
-For 2018, the ML4ALL *Speaker Wrangler* is [Dave Lester].
+For 2018, the ML4ALL *Speaker Wrangler* is [Adron Hall].
 
 
 ## Communications Director
@@ -114,5 +114,4 @@ For 2018, the ML4ALL *Communications Director* is [Troy Howard].
 [Glenn Block]: http://twitter.com/gblock "Glenn Block"
 [Alena Hall]: http://twitter.com/lenadroid "Alena Hall"
 [Byron Gerlach]: http://twitter.com/byrongerlach "Byron Gerlach"
-[Dave Lester]: http://twitter.com/davelester "Dave Lester"
 [code of conduct]: code-of-conduct.html "Code of Conduct"
