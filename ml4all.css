@@ -138,3 +138,7 @@ h2.logo {
 #speakers .card-content {
   min-height: 13rem;
 }
+
+.schedule-time {
+  min-width: 5.5em;
+}
