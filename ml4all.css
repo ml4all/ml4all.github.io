@@ -142,3 +142,7 @@ h2.logo {
 .schedule-time {
   min-width: 5.5em;
 }
+
+.strike {
+  text-decoration: line-through
+}
