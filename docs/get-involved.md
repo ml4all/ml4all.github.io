@@ -17,7 +17,7 @@ We'd love for you to get involved! There are many ways to be part of ML4ALL:
 The Organizing Team
 -------------------
 
-ML4ALL is organized by a small team of people based primarily in Portland, Oregon. The team varies each year, but was originally founded by [Troy Howard], [Alena Hall] and [Glenn Block].
+ML4ALL is organized by a small team of people based primarily in Portland, Oregon. The team varies each year, but was originally founded by [Troy Howard], [Lena Hall], [Glenn Block], and [Adron Hall].
 
 Our organizing team has a variety of responsibilities that all contribute towards delivering an awesome experience for our attendees and speakers. We've formalized those into the following roles:
 
@@ -30,17 +30,26 @@ Additionally, they manage the budget, set ticket pricing, manage the ticketing s
 
 They also help the other roles organize their work and fill in wherever needed, from sweeping the floor to updating the website, to ordering stickers.
 
-For 2018, our *SUPER GENIUS OF CONF* is [Troy Howard].
+For 2019, our *SUPER GENIUS OF CONF* is [Troy Howard].
 
 
-## CFP Czar
+## Agenda Director
 
-The *CFP Czar* is responsible for managing everything related to our speakers. They open and close the Call For Proposals (CFP), manage the talk selection process, do outreach to invite the best speakers we can find, communicate with potential speakers when a talk is accepted or rejected, coordinate speaker travel, organize the talk schedule, and help ensure the speakers are prepared for their talk.
+The *Agenda Director* is responsible for managing everything related to the conference agenda, schedule, and speakers.
+
+They open and close the Call For Proposals (CFP), work closely with the *Program Committee*, coordinate the talk selection process and speaker outreach, communicate with potential speakers when a talk is accepted or rejected, coordinate speaker travel, organize the talk schedule, and help ensure the speakers are prepared for their talk.
 
 After the conference, they manage the process of getting videos uploaded to the site.
 
-For 2018, the ML4ALL *CFP Czar* is [Alena Hall].
+For 2019, the ML4ALL *Agenda Director* is [Lena Hall].
 
+## Program Committee
+
+Program Committee are known members of the community passionate about Machine Learning and related topics. They have varying backgrounds, skills, and diverse expertise that contributes a lot to builing an excellent conference agenda. The Program Committee works closely with *Agenda Director*, and help create the agenda for the conference by doing outreach to invite the best speakers, judging and voting for the best talks. They also communicate with the wide audience, encourage people to attend the conference, and submit talks through the CFP.
+
+For 2019, the ML4ALL *Program Committee* consists of [Paige Bailey], [Natallia Dzenisenka], and [Wee Hyong Tok].
+
+The Program Committee is usually invited by the conference organizers. If you would like to be a member of ML4ALL Program Committee next year, or have a recommendation, contact us at [ml4allconf@gmail.com].
 
 ## Sponsorship Coordinator
 
@@ -48,14 +57,14 @@ The *Sponsorship Coordinator* is responsible for managing our relationship with 
 
 The *Sponorship Coordinator* manages the entire lifecycle of a sponsorship including negotiations, accounts payable, and delivering on our promised sponsorship benefits like: updating the website with sponsor logos, providing on-site help for promotional materials, coordinating messaging from stage or in emails, etc.
 
-For 2018, the ML4ALL *Sponsorship Coordinator* is [Glenn Block].
+For 2019, the ML4ALL *Sponsorship Coordinator* is [Glenn Block].
 
 
 ## Logitisics Coordinator
 
 The *Logistics Coordinator* is our on-site support system. They manage things like locating an appropriate venue, coordinating with caterers, coordinating with videographers, setting up temporary WiFi installations at the venue, renting equipment such as projection systems, chairs, and other incidentals. This is a very involved role and may require a certain amount of driving around town to collect supplies, and negotiating contracts with various service providers and vendors.
 
-For 2018, the ML4ALL *Logistics Coordinator* is [Troy Howard].
+For 2019, the ML4ALL *Logistics Coordinator* is [Troy Howard].
 
 NOTE: We'd love to find a replacement for Troy in this role. If you're interested, shoot us an email at [ml4allconf@gmail.com]. The *Logistics Coordinator* must be based in/around Portland.
 
@@ -64,7 +73,7 @@ NOTE: We'd love to find a replacement for Troy in this role. If you're intereste
 
 The *Brand Director* is responsible for creating the unique identity of our conference. This involves everything from ensuring the venue has the right *vibe* to creating visual assets like logos for the website and social media, managing the website theme, creating t-shirts and stickers, and ensure our communications voice is consistent.
 
-For 2018, the ML4ALL *Brand Director* is [Troy Howard].
+For 2019, the ML4ALL *Brand Director* is [Troy Howard].
 
 NOTE: We'd love to find a replacement for Troy in this role. If you're interested, shoot us an email at [ml4allconf@gmail.com]. The *Brand Director* can be based anywhere in the world.
 
@@ -73,7 +82,7 @@ NOTE: We'd love to find a replacement for Troy in this role. If you're intereste
 
 The *Volunteer Coordinator* is responsible for organizing members of community who would like to become volunteers. The *Volunteer Coordinator* organizes the schedule of volunteers, ensures we have enough volunteers to cover our needs, and during the conference, manages the task, questions, and other needs of the volunteer staff.
 
-For 2018, the ML4ALL *Volunteer Coordinator* is [Byron Gerlach].
+For 2019, the ML4ALL *Volunteer Coordinator* is [Byron Gerlach].
 
 
 ## Activities Director
@@ -82,14 +91,14 @@ The *Activities Director* is responsible for arranging the extra activities outs
 
 During these events, the *Activities Director* is also responsible for any [Code Of Conduct] problems that may come up.
 
-For 2018, the ML4ALL *Activities Director* is [Adron Hall].
+For 2019, the ML4ALL *Activities Director* is [Adron Hall].
 
 
 ## Emcee
 
 The *Emcee* is the face and voice of the conference on stage. They are responsible for introducing the speakers on stage, and making various announcements during the conference. The *Emcee* also manages any on-stage interaction with the crowd that may come up, especially around Q&A.
 
-For 2018, the ML4ALL *Emcee* role is shared by [Troy Howard] and [Glenn Block].
+For 2019, the ML4ALL *Emcee* role is shared by [Troy Howard] and [Glenn Block].
 
 NOTE: We'd love to find a replacement for Troy or Glenn in this role. If you're interested, shoot us an email at [ml4allconf@gmail.com]. The *Emcee* can be based anywhere in the world, but must be able to attend the conference.
 
@@ -97,14 +106,14 @@ NOTE: We'd love to find a replacement for Troy or Glenn in this role. If you're 
 
 The *Speaker Wrangler* works closely with the [Emcee](#emcee), but operates off-stage, to make sure that speakers are ready to take the stage at their scheduled time. The *Speaker Wrangler* also helps them connect to the A/V system and troubleshoot and projection or amplification problems, and helps the speaker wear their microphone. During the talk, they ensure the speaker does not run over time (gives 5 minute warning, and cuts off long-running talks).
 
-For 2018, the ML4ALL *Speaker Wrangler* is [Adron Hall].
+For 2019, the ML4ALL *Speaker Wrangler* is [Adron Hall].
 
 
 ## Communications Director
 
 The *Communications Director* is responsible for managing outbound communications and promotions via email, Twitter, and other online media. The *Communications Director* works closely with the [Brand Director](#brand-director) to ensure the voice of the brand remains consistent with the conference's identity and *vibe*.
 
-For 2018, the ML4ALL *Communications Director* is [Troy Howard].
+For 2019, the ML4ALL *Communications Director* is [Adron Hall].
 
 [attend]: attend.html
 [ml4allconf@gmail.com]: mailto:ml4allconf@gmail.com
@@ -112,6 +121,9 @@ For 2018, the ML4ALL *Communications Director* is [Troy Howard].
 [Troy Howard]: http://twitter.com/thoward37 "Troy Howard"
 [Adron Hall]: http://twitter.com/adron "Adron Hall"
 [Glenn Block]: http://twitter.com/gblock "Glenn Block"
-[Alena Hall]: http://twitter.com/lenadroid "Alena Hall"
+[Lena Hall]: http://twitter.com/lenadroid "Lena Hall"
 [Byron Gerlach]: http://twitter.com/byrongerlach "Byron Gerlach"
+[Paige Bailey]: https://twitter.com/DynamicWebPaige "Paige Bailey"
+[Natallia Dzenisenka]: https://twitter.com/nata_dzen "Natallia Dzenisenka"
+[Wee Hyong Tok]: https://twitter.com/weehyong "Wee Hyong Tok"
 [code of conduct]: code-of-conduct.html "Code of Conduct"
