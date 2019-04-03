@@ -11,7 +11,9 @@ Here's what you can expect as a speaker for ML4ALL:
 
 The first step to becoming a speaker for ML4ALL is to submit a proposal for a talk. We accept proposals at any time, [via email][ml4allconf@gmail.com], but each year we open a Call For Proposals (CFP) and there is a cut off date for the talks we'll consider for that year's schedule.
 
-> ### Click here to [submit a talk][cfp]!
+<blockquote>
+<h3 id="click-here-to-submit-a-talkcfp">The 2019 CFP has closed. <br/><br/> Please reach out <a href="mailto:ml4allconf@gmail.com">via email</a> with ideas for talks at <a href="mailto:ml4allconf@gmail.com">ml4allconf@gmail.com</a>.<br/><br/> <p>Also, consider signing up to giving a 5min <a href="schedule.html#lightning-talks-mon">Lightning Talk</a>!</p></h3>
+</blockquote>
 
 ## Step 2: Proposal Selected
 
