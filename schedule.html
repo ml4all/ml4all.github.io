@@ -79,99 +79,204 @@
 
     <div class="container">
 
-      <!-- BEGIN overview -->
-      <div class="columns section" id="schedule">
+      <div class="columns section">
         <div class="column is-10 is-offset-1">
           <div class="content">
-            <h1 class="has-text-centered">Schedule Overview</h1>
-            <h3 class="has-text-centered">&rarr;&nbsp;&nbsp;<a href="#full-schedule">View the Full Schedule</a>&nbsp;&nbsp;&larr;</h3>
+            <h1 class="has-text-centered">Full Schedule</h1>
+            <p class="has-text-centered">Everything you need to know, day by day.</p>
+          </div>
+          <div class="columns">
+            <div class="column is-6">
+              <ul style="list-style-type: none;" class="has-text-right">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#calendar">Calendar</a></li>
+                <li><a href="#venues">Venues</a></li>
+                <li><a href="#workshops">Workshops</a></li>
+                <li><a href="#bike-ride-details">Bike Ride</a></li>
+                <li><a href="#talk-abstracts">Talk Abstracts</a></li>
+              </ul>
+            </div>
+            <div class="column is-6">
+              <ul style="list-style-type: none;">
+                <li><a href="#sunday">Sun 4/28</a></li>
+                <li><a href="#monday">Mon 4/29</a></li>
+                <li><a href="#tuesday">Tue 4/30</a></li>
+                <li><a href="#wednesday">Wed 5/1</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- BEGIN overview -->
+      <div class="columns section" id="overview">
+        <div class="column is-10 is-offset-1">
+          <div class="content">
+            <h1 class="has-text-centered">Overview</h1>
+            <h3 class="has-text-centered">&rarr;&nbsp;&nbsp;<a href="#calendar">Google Calendar</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#sunday">Full Schedule</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#talk-abstracts">Talk Abstracts</a>&nbsp;&nbsp;&larr;</h3>
             <div class="columns section">
 
-              <div class="column is-one-third">
+              <div class="column is-one-quarter">
                 <h2><a href="schedule.html#sunday">SUN 4/28</a></h2>
-                <h3><a href="#">Bike Ride</a> <small>(details TBD)</small></h3>
+                <h3><a href="#workshops">Workshops</a></h3>
+                <p><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a>
+                <br/> Doors @ 9:00am</p>
+                <p>9:30am-11:30am<br/><a href="#abstract-paige-bailey">Workshop: TensorFlow Docs Sprint</a></p>
+                <p>9:30am-11:30am<br/><a href="#abstract-nicolle-merrill">Workshop: How to Have Curious Conversations</a></p>
+                <p>12:30pm-4:30pm<br/><a href="#abstract-andrew-ferlitsch">Workshop: Getting Started w/ Keras/OpenCV</a></p>
+
+                <h3><a href="#bike-ride-details">Bike Ride</a></h3>
                 <p>2:00pm @ <a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a></p>
-                <p>Join your fellow attendees for a <a href="schedule.html#bike-ride">leisurely ride</a> around Portland.</p>
+                <p>Join your fellow attendees for a <a href="schedule.html#bike-ride-details">leisurely ride</a> around Portland.</p>
                 <h3><a href="schedule.html#welcome-reception">Welcome Reception</a></h3>
                 <p>7:00pm @ <a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a></p>
-                <p>Get your badge and mingle. Open bar, live entertainment, and more!</p>
+                <p>Get your badge and mingle. Open bar, special guest speakers, live entertainment, and more!</p>
               </div>
-              <div class="column is-one-third">
+
+              <div class="column is-one-quarter">
                 <h2><a href="schedule.html#monday">MON 4/29</a></h2>
                 <h3><a href="schedule.html#monday">Conf Day 1</a></h3>
-                <p><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a><br>Doors @ 8:30am</p>
+                <p><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a><br>Doors @ 8:00am</p>
+
                 <p>Talks from 9:00am-5:00pm</p>
+
+                <p><a href="schedule.html#model-building-yoga-mon">Model Building: Refreshing Yoga Session</a> @ 10:15am</p>
+
                 <p>Lunch @ Noon</p>
-                <p>Also.. Unconference, ML Lab and more!</p>
-                <p>Day 1 Talks End @ 5:00pm</p>
+
+                <p><a href="schedule.html#lightning-talks-mon">Lightning Talks</a> @ 1:00pm</p>
+
+                <p><a href="schedule.html#hiring-speed-networking-mon">Hiring Speed Networking</a> @ 3:00pm</p>
+
+                <p><a href="#family-photo">Family Photo</a> @ 5:00pm</p>
+
                 <h3><a href="schedule.html#official-party">Official Party</a></h3>
-                <p>7:00pm-11:00pm</p>
+                <p>7:00pm-11:00pm @ <a href="https://goo.gl/maps/kzJKJP8EZRF2">Pips &amp; Bounce</a></p>
                 <p>NOTE: Minors are welcome, but only until 9pm!</p>
               </div>
-              <div class="column is-one-third">
+
+              <div class="column is-one-quarter">
                 <h2><a href="schedule.html#tuesday">TUE 4/30</a></h2>
                 <h3><a href="schedule.html#tuesday">Conf Day 2</a></h3>
-                <p><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a><br>Doors @ 8:30am</p>
+                <p><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a><br>Doors @ 8:00am</p>
+
                 <p>Talks from 9:00am-5:00pm</p>
-                <!-- <p><a href="schedule.html#hiring-speed-networking">Hiring Speed Networking</a> @ 10:15am</p> -->
+
+                <p><a href="schedule.html#model-building-yoga-tue">Model Building: Refreshing Yoga Session</a> @ 10:15am</p>
+
                 <p>Lunch @ Noon</p>
-                <p>Day 2 Talks End @ 5:00pm</p>
-                <!-- <h3><a href="schedule.html#wnb-reception">Women &amp; Nonbinary Reception</a></h3> -->
-                <!-- <p>5:30pm–7:30pm @ <a href="https://goo.gl/maps/JGpaQWs6Hiw">Cooper's Hall</a></p> -->
-                <!-- <p>The Microsoft Azure Advocacy team is holding a <a href="https://www.eventbrite.com/e/azure-advocates-women-nonbinary-attendee-reception-tickets-46293772921">women and non binary community get-together</a> to close out the conference.</p> -->
-                <!-- <p><a href="https://www.eventbrite.com/e/azure-advocates-women-nonbinary-attendee-reception-tickets-46293772921">&rarr;&nbsp;RSVP HERE&nbsp;&larr;</a></p> -->
-                <h3><a href="schedule.html#mingle-relax">#relaxml</a></h3>
+
+                <p><a href="schedule.html#lightning-talks-tue">Lightning Talks</a> @ 1:00pm</p>
+
+                <p><a href="schedule.html#hiring-speed-networking-tue">Hiring Speed Networking</a> @ 3:00pm</p>
+
+                <h3><a href="#mingle">Dinner and Mingle</a></h3>
                 <p>The conference has ended, but we're all still here. Find some friendly faces and invite them to dinner or <a href="https://twitter.com/search?f=tweets&amp;q=%23relaxml&amp;src=typd">#relaxml</a> brunch before you leave the venue!</p>
+
                 <p>Find your tribe <a href="https://join.slack.com/ml4all/shared_invite/MTk1MjUwNzgyMDgyLTE0OTY5OTgwODUtNTU1MTZhMjA0Zg">on Slack</a>, or on Twitter using the hashtag <a href="https://twitter.com/search?f=tweets&amp;q=%23ml4all&amp;src=typd">#ml4all</a>.</p>
               </div>
-            </div><!--             <div class="row">
-              <div class="column">
-                <a name="iCal">
-                </a><h2><a name="iCal"></a><a href="https://calendar.google.com/calendar/ical/4d0c0ce6f2skpvgjocoi40mf18%40group.calendar.google.com/public/basic.ics">Download calendar in iCal format</a></h2>
-              </div>
-            </div> -->
 
+              <div class="column is-one-quarter">
+                <h2><a href="schedule.html#wednesday">WED 4/30</a></h2>
+                <h3><a href="schedule.html#wednesday">#relaxml</a></h3>
+                <p>Self-organize brunch, hacks, and chill-outs with other attendees using the hashtag <a href="https://twitter.com/search?f=tweets&q=%23relaxML&src=typd">#relaxml</a> or the <a href="https://ml4all.slack.com/messages/CJ42WPHEY">#relaxml</a> Slack channel.</p>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
 
       <!-- BEGIN Full Schedule -->
-      <div class="columns section" id="full-schedule">
+      <div class="columns section" id="calendar">
         <div class="column is-10 is-offset-1">
           <div class="content">
-            <h1 class="has-text-centered">Full Schedule</h1>
-
             <div class="box section">
+              <h1 class="has-text-centered">Google Calendar</h1>
               <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=1hapeeldpom6gcb9ajv8gu1fto%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
             </div>
-            <!-- BEGIN Sunday -->
-            <div class="box section">
-              <h1 id="sunday" class="has-text-centered">Sunday 4/28</h1>
-              <div class="columns">
 
+            <!-- BEGIN Sunday -->
+            <div class="box section" id="workshops">
+              <h1 id="sunday" class="has-text-centered">Sunday 4/28</h1>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">9:00am</div>
+                <div class="column" id="workshops-doors-open"><strong>Workshops: Doors Open</strong> @ <a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a></div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">9:30am</div>
+                <div class="column" id="paige-bailey"><strong><a href="schedule.html#abstract-paige-bailey">Workshop: Paige Bailey &dash; TensorFlow Docs Sprint</a></strong></div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">9:30am</div>
+                <div class="column" id="nicolle-merrill"><strong><a href="schedule.html#abstract-nicolle-merrill">Workshop: Nicolle Merrill &dash; How to Have Curious Conversations</a></strong></div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">11:30am</div>
+                <div class="column">
+                  <em><strong>Morning Workshops End</strong></em>
+                </div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">12:30pm</div>
+                <div class="column" id="andrew-ferlitsch"><strong><a href="schedule.html#abstract-andrew-ferlitsch">Workshop: Andrew Ferlitsch &dash; Getting Started with Keras and OpenCV for Computer Vision </a></strong></div>
+              </div>
+
+              <div class="columns">
                 <div class="column is-narrow schedule-time">2:00pm</div>
                 <div class="column" id="bike-ride">
-                  <strong><a href="https://compositecode.blog/2018/05/20/ml4all-bike-ride-details/">Bike Ride Starts</a></strong> - @ <em><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a></em>
+                  <strong><a href="#bike-ride-details">Bike Ride Starts</a></strong> - @ <em><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a></em>
                   <p></p>
-                  <p>Join your fellow attendees for a <a href="#">leisurely ride</a> (details TBD) around Portland.</p>
-                  <!-- <p>Meet in the <a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a> parking lot. Click here for <a href="https://compositecode.blog/2018/05/20/ml4all-bike-ride-details/">more info</a>...</p> -->
+                  <p>Join your fellow attendees for a <a href="#bike-ride-details">leisurely ride</a> around Portland.</p>
+                  <p>Meet in the <a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a> parking lot. Click here for <a href="#bike-ride-details">more info</a>...</p>
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">4:00pm</div>
                 <div class="column">
-                  <strong>Bike Ride Ends</strong></em>
+                  <em><strong>Bike Ride Ends</strong></em>
+                </div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">4:30pm</div>
+                <div class="column">
+                  <em><strong>Afternoon Workshop Ends</strong></em>
+                </div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">7:00pm</div>
+                <div class="column" id="welcome-reception">
+                  <strong>Welcome Reception Doors Open</strong> @ <em><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a></em>
+                  <p></p>
+                  <p>Get your badge and mingle. Open bar, special guest speakers <a href="#oz-du-soleil">Oz du Soleil</a> and <a href="#wendy-bukoski">Wendy Bukoski</a>, <a href="#the-dark-mother">live entertainment</a>, pool tables, and more! Minors are allowed the entire evening, so feel free to bring your kids and +1s (or +2s, we've got room).</p>
+                  <p>In the upstairs lounge at the <a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a>.</p>
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">8:00pm</div>
-                <div class="column" id="welcome-reception">
-                  <strong>Welcome Reception Doors Open</strong> @ <em><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a></em>
-                  <p></p>
-                  <p>Get your badge and mingle. Open bar, live entertainment, and more! Minors are allowed the entire evening, so feel free to bring your kids and +1s (or +2s, we've got room).</p>
-                  <p>In the upstairs lounge at the <a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a>.</p>
+                <div class="column" id="oz-du-soleil"><strong><a href="schedule.html#abstract-oz-du-soleil">Oz du Soleil &dash; Rattlers</a></strong></div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">8:30pm</div>
+                <div class="column" id="wendy-bukoski"><strong><a href="schedule.html#abstract-wendy-bukoski">Wendy Bukoski &dash; Data Collection On the Streets</a></strong></div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">9:00pm</div>
+                <div class="column" id="the-dark-mother"><strong><a href="https://www.facebook.com/thedarkmother.hexthepatriarchy/">The Dark Mother (live music)</a></strong>
+                <p></p>
+                <p>Enjoy the powerful and thoughtful music of local band <a href="https://www.facebook.com/thedarkmother.hexthepatriarchy/">The Dark Mother</a>.</p>
                 </div>
               </div>
 
@@ -189,43 +294,55 @@
               <h1 id="monday" class="has-text-centered">Monday 4/29</h1>
               <div class="columns">
 
-                <div class="column is-narrow schedule-time">8:00am</div>
+              <div class="column is-narrow schedule-time">8:00am</div>
                 <div class="column" id="doors-open-mon">
                   <strong>Doors Open, Coffee/Breakfast</strong> - @ <em><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a></em>
                   <p></p>
                   <p>Come grab a light breakfast snack, handmade coffee or chai. Bling out your badge, mingle with other attendees, and find your perfect spot to camp out in for the day.</p>
 
-                  <p class="box"><em><b>NOTE</b>: While we know that "the early bird catches the worm", please DO NOT arrive early. We will be setting up in the morning, and will not be able to allow access to the building until 8:00am. If you get there early, you'll be waiting around on the sidewalk out front...</em></p>
+                  <p class="box"><em><b>NOTE</b>: While we know that "<a href="https://en.wiktionary.org/wiki/the_early_bird_catches_the_worm">the early bird catches the worm</a>", please DO NOT arrive early. We will be setting up in the morning, and will not be able to allow access to the building until 8:00am. If you get there early, you'll be waiting around on the sidewalk out front...</em></p>
+                </div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">8:45am</div>
+                <div class="column" id="organizer-intro-mon">
+                  <strong>ML4ALL Introduction</strong>
+                  <p></p>
+                  <p>The ML4ALL Team will introduce the conference, and share some important info with the crowd.</p>
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">9:00am</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="dr-melissa-santos"><strong><a href="schedule.html#abstract-dr-melissa-santos">Dr. Melissa Santos &dash; YOU Can Predict The Future</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">9:45am</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="wale-akinfaderin"><strong><a href="schedule.html#abstract-wale-akinfaderin">Wale Akinfaderin &dash; The Creative Art of Engineering Bespoke Features</a></strong></div>
               </div>
 
-              <div class="columns">
+              <div class="columns" id="allison-krug">
                 <div class="column is-narrow schedule-time">10:15am</div>
-                <div class="column" id="long-break-mon-1">
-                  <strong>Morning Break</strong>
+                <div class="column" id="model-building-yoga-mon">
+                  <strong id="abstract-allison-krug">Morning Break / Model Building: Refreshing Yoga Session with Allison Krug</strong>
                   <p></p>
-                  <p>Grab a pastry, and discuss the first two talks with one another. Meet someone new! Look out for the designated <em>Introducer</em> if you need help saying hello for the first time.</p>
+
+                  <p>Take some time between talks to stretch out and get your body comfortable. The one and only Allison Krug will lead a short yoga session, suitable for all levels of skill and fitness.</p>
+
+                  <p>Or if you prefer just grab a pastry, and discuss the first two talks with one another. Meet someone new! Look out for the designated <em>Introducer</em> if you need help saying hello for the first time.</p>
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">10:45am</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="sachi-parikh"><strong><a href="schedule.html#abstract-sachi-parikh">Sachi Parikh &dash; My Journey Learning ML and AI through Self Study as a High School Student</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">11:30am</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="tyrone-poole"><strong><a href="schedule.html#abstract-tyrone-poole">Tyrone Poole &dash; Creating Access to Housing in America</a></strong></div>
               </div>
 
               <div class="columns">
@@ -233,49 +350,51 @@
                 <div class="column" id="lunch-mon">
                   <strong>Lunch Break</strong>
                   <p></p>
-                  <p>Lunch will be provided. Vegetarian, vegan, gluten free options included in the standard menu.</p>
+                  <p>Lunch will be provided. Head downstairs to the parking lot for food carts and <strong>#FREEHOTSOUP</strong>. Vegetarian, vegan, gluten-free options included in the standard menu. Drinks available from the bar inside.</p>
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">1:00pm</div>
                 <div class="column" id="lightning-talks-mon">
-                  <strong><a href="https://en.wikipedia.org/wiki/Lightning_talk">Lightning Talks</a></strong> - A series of short 5min talks. Sign-up at the registration desk!
+                  <strong><a href="https://en.wikipedia.org/wiki/Lightning_talk">Lightning Talks</a></strong> - A series of short 5min talks. <a href="https://www.google.com/url?q=https%3A%2F%2Fml4all.us16.list-manage.com%2Ftrack%2Fclick%3Fu%3D71e48387a8d6ff3798a79e8a3%26id%3D783ee797ff%26e%3Dac2fbd4f9e&sa=D&usd=2&usg=AFQjCNGyn3n7UpJ6BHXdTLGjH0c4JskSUA">Sign-up online</a> or at the registration desk!
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">1:45pm</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="erika-pelaez"><strong><a href="schedule.html#abstract-erika-pelaez">Erika Pelaez &dash; Building a Machine Learning Classifier to Listen to Killer Whales</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">2:30pm</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="maria-khalusova"><strong><a href="schedule.html#abstract-maria-khalusova">Maria Khalusova &dash; Machine Learning Model Evaluation Metrics</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">3:00pm</div>
-                <div class="column" id="long-break-mon-2">
-                  <strong>Afternoon Break</strong>
+                <div class="column" id="hiring-speed-networking-mon">
+                  <strong>Hiring Speed Networking / Afternoon Break</strong>
                   <p></p>
-                  <p>Grab a snack, and discuss the previous talks with one another. Meet someone new! Look out for the designated <em>Introducer</em> if you need help saying hello for the first time.</p>
+                  <p>Looking for a job? Looking to hire someone? Head up to the upstairs lounge and take part in <b>Hiring Speed Networking</b>! This event pairs potential employeers with job seekers for quick 1min chat. Everyone gets to talk to everyone! :)</p>
+
+                  <p>Of course, if you're not interested in any of that, you can always grab a discuss, and discuss the previous talks with one another. Meet someone new! Look out for the designated <em>Introducer</em> if you need help saying hello for the first time.</p>
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">3:30pm</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="amy-hodler"><strong><a href="schedule.html#abstract-amy-hodler">Amy Hodler &dash; Improving ML Predictions with Connected Feature Extraction</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">4:00pm</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="aeva-van-der-veen"><strong><a href="schedule.html#abstract-aeva-van-der-veen">Aeva van der Veen &dash; Gaming Rigs and ML Pipelines: Getting Started with the Tools You Already Have</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">4:45pm</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="dr-catherine-nelson"><strong><a href="schedule.html#abstract-dr-catherine-nelson">Dr. Catherine Nelson &dash; Practical Privacy in Machine Learning Systems</a></strong></div>
               </div>
 
               <div class="columns">
@@ -288,9 +407,11 @@
               <div class="columns">
                 <div class="column is-narrow schedule-time">7:00pm</div>
                 <div class="column" id="official-party">
-                  <strong>Official Party @ <a href="#">TBD</a></strong>
+                  <strong>Official Party @ <a href="https://goo.gl/maps/kzJKJP8EZRF2">Pips &amp; Bounce</a></strong>
                   <p></p>
-                  <p> Details coming soon... </p>
+                  <p>Pips &amp; Bounce is an awesome adult and kid-friendly ping-pong focused venue. With 10 tables, unlimited amounts of ping-pong balls, snacks, and a full bar, we dare you not to have fun. Drinks and light snacks will be provided, and you're welcome to invite as many of your friends and family as you'd like!</p>
+
+                  <p>Make sure someone in the group has a ML4ALL badge with them, to gain access. If you are over 21 and want to drink, please remember to bring ID. Under 21 guests are welcome and encouraged, but only before 9pm!</p>
                 </div>
               </div>
 
@@ -308,43 +429,53 @@
             <div class="box section">
               <h1 id="tuesday" class="has-text-centered">Tuesday 4/30</h1>
               <div class="columns">
-
                 <div class="column is-narrow schedule-time">8:00am</div>
                 <div class="column" id="doors-open-tue">
                   <strong>Doors Open, Coffee/Breakfast</strong> - @ <em><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a></em>
                   <p></p>
-                  <p>Come grab a light breakfast snack, handmade coffee or chai. Bling out your badge, mingle with other attendees, and find your perfect spot to camp out in for the day.</p>
+                  <p>Come grab a light breakfast snack, handmade coffee or chai. Bling out your badge, mingle with other attendees, and find your perfect spot to camp out for the day.</p>
+                </div>
+              </div>
+
+              <div class="columns">
+                <div class="column is-narrow schedule-time">8:45am</div>
+                <div class="column" id="organizer-intro-tue">
+                  <strong>ML4ALL Introduction</strong>
+                  <p></p>
+                  <p>The ML4ALL Team will introduce the conference, and share some important info with the crowd.</p>
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">9:00am</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="dr-sarah-kaiser"><strong><a href="schedule.html#abstract-dr-sarah-kaiser">Dr. Sarah Kaiser: What is Quantum Machine Learning, and Is It A Thing?</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">9:45am</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="seth-juarez-siyu-yang"><strong><a href="schedule.html#abstract-seth-juarez-siyu-yang"><span id="seth-juarez">Seth Juarez</span> &amp; <span id="siyu-yang">Siyu Yang</span> &dash; Deep Learning for Computer Vision with Applications for Wildlife Conservation</a></strong></div>
               </div>
 
-<!--               <div class="columns">
+              <div class="columns">
                 <div class="column is-narrow schedule-time">10:15am</div>
-                <div class="column" id="hiring-speed-dating">
-                  <strong>Hiring Speed Dating / Morning Break</strong>
+                <div class="column" id="model-building-yoga-tue">
+                  <strong>Morning Break / Model Building: Refreshing Yoga Session with Allison Krug</strong>
                   <p></p>
-                  <p>Looking for a job? Looking to hire someone? Head up to the upstairs lounge and take part in <b>Hiring Speed Dating</b>! This event pairs potential employeers with job seekers for quick 1min chat. Everyone gets to talk to everyone! :)</p>
-                  <p>Of course, if you're not interested in any of that, you can always grab a pastry, and discuss Amy and Robert's talks with one another. Meet someone new! Look out for the designated <em>Introducer</em> if you need help saying hello for the first time.</p>
+
+                  <p>Take some time between talks to stretch out and get your body comfortable. The one and only Allison Krug will lead a short yoga session, suitable for all levels of skill and fitness.</p>
+
+                  <p>Or if you prefer just grab a pastry, and discuss the first two talks with one another. Meet someone new! Look out for the designated <em>Introducer</em> if you need help saying hello for the first time.</p>
                 </div>
               </div>
- -->
+
               <div class="columns">
                 <div class="column is-narrow schedule-time">10:45am</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="hannes-hapke"><strong><a href="schedule.html#abstract-hannes-hapke">Hannes Hapke &dash; MLOps for Non-DevOps Folks, a.k.a. “I have a model, now what?!</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">11:30am</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="jules-damji"><strong><a href="schedule.html#abstract-jules-damji">Jules S. Damji &dash; MLflow: Infrastructure for a Complete Machine Learning Life Cycle</a></strong></div>
               </div>
 
               <div class="columns">
@@ -352,49 +483,51 @@
                 <div class="column" id="lunch-tue">
                   <strong>Lunch Break</strong>
                   <p></p>
-                  <p>Lunch will be provided. Vegetarian, vegan, gluten free options included in the standard menu.</p>
+                  <p>Lunch will be provided. Head downstairs to the parking lot for food carts and <strong>#FREEHOTSOUP</strong>. Vegetarian, vegan, gluten-free options included in the standard menu. Drinks available from the bar inside.</p>
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">1:00pm</div>
                 <div class="column" id="lightning-talks-tue">
-                  <strong><a href="https://en.wikipedia.org/wiki/Lightning_talk">Lightning Talks</a></strong> - A series of short 5min talks. Sign-up at the registration desk!
+                  <strong><a href="https://en.wikipedia.org/wiki/Lightning_talk">Lightning Talks</a></strong> - A series of short 5min talks. <a href="https://www.google.com/url?q=https%3A%2F%2Fml4all.us16.list-manage.com%2Ftrack%2Fclick%3Fu%3D71e48387a8d6ff3798a79e8a3%26id%3D783ee797ff%26e%3Dac2fbd4f9e&sa=D&usd=2&usg=AFQjCNGyn3n7UpJ6BHXdTLGjH0c4JskSUA">Sign-up online</a> or at the registration desk!
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">1:45pm</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="anushka-nair-charu-nair"><strong><a href="schedule.html#abstract-anushka-nair-charu-nair"><span id="anushka-nair">Anushka</span> &amp; <span id="charu-nair">Charu Nair</span> &dash; Scaling Human(e)ity in AI</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">2:30pm</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="zhi-yang"><strong><a href="schedule.html#abstract-zhi-yang">Zhi Yang &dash; Hierarchical Topic Modeling in Cancer Research</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">3:00pm</div>
-                <div class="column" id="long-break-tue-2">
-                  <strong>Afternoon Break</strong>
+                <div class="column" id="hiring-speed-networking-tue">
+                  <strong>Hiring Speed Networking / Afternoon Break</strong>
                   <p></p>
-                  <p>Grab a snack, and discuss the previous talks with one another. Meet someone new! Look out for the designated <em>Introducer</em> if you need help saying hello for the first time.</p>
+                  <p>Looking for a job? Looking to hire someone? Head up to the upstairs lounge and take part in <b>Hiring Speed Networking</b>! This event pairs potential employeers with job seekers for quick 1min chat. Everyone gets to talk to everyone! :)</p>
+
+                  <p>Of course, if you're not interested in any of that, you can always grab a discuss, and discuss the previous talks with one another. Meet someone new! Look out for the designated <em>Introducer</em> if you need help saying hello for the first time.</p>
                 </div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">3:30pm</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="karl-weinmeister"><strong><a href="schedule.html#abstract-karl-weinmeister">Karl Weinmeister &dash; Build, Train, and Serve Your ML Models on Kubernetes with Kubeflow</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">4:00pm</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="damon-danieli"><strong><a href="schedule.html#abstract-damon-danieli">Damon Danieli &dash; Time-Series Behavioral Analysis for Churn Prediction</a></strong></div>
               </div>
 
               <div class="columns">
                 <div class="column is-narrow schedule-time">4:45pm</div>
-                <div class="column" id="speaker-name"><strong><a href="index.html#speaker-name">Talk</a></strong> - TBD </div>
+                <div class="column" id="speaker-name"><strong><a href="schedule.html#abstract-speaker-name">TBD</a></strong></div>
               </div>
 
               <div class="columns">
@@ -407,17 +540,7 @@
                   <p><strong><a href="https://twitter.com/search?f=tweets&amp;q=%23relaxml&amp;src=typd">#relaxml</a> Brunch</strong>: Around Wednesday? Organize <a href="https://twitter.com/search?f=tweets&amp;q=%23relaxml&amp;src=typd">#relaxml</a> brunch plans with other attendees for Wed morning. It's a great way to decompress before heading back home. Post photos and invites until the <a href="https://twitter.com/search?f=tweets&amp;q=%23relaxml&amp;src=typd">#relaxml</a> hashtag!
                 </div>
               </div>
-<!--               <div class="columns">
-                <div class="column is-narrow schedule-time">5:30pm</div>
-                <div class="column" id="wnb-reception">
 
-                <h3><a href="schedule.html#wnb-reception">Women &amp; Nonbinary Reception</a></h3>
-                <p>5:30pm–7:30pm @ <a href="https://goo.gl/maps/JGpaQWs6Hiw">Cooper's Hall</a></p>
-                <p>The Microsoft Azure Advocacy team is holding a <a href="https://www.eventbrite.com/e/azure-advocates-women-nonbinary-attendee-reception-tickets-46293772921">women and non binary community get-together</a> to close out the conference.</p>
-                <p><a href="https://www.eventbrite.com/e/azure-advocates-women-nonbinary-attendee-reception-tickets-46293772921">&rarr;&nbsp;RSVP HERE&nbsp;&larr;</a></p>
-                </div>
-              </div>
- -->
               <div class="columns">
                 <div class="column is-narrow schedule-time">6:00pm</div>
                 <div class="column" id="doors-close">
@@ -430,27 +553,780 @@
             </div>
             <!-- END Tuesday -->
 
-        <div class="section box" id="venue">
-          <div class="column">
-            <h2 class="has-text-centered"><a name="venue-info"></a>MAIN VENUE</h2>
-            <h3><a href="https://goo.gl/maps/xHJeXcgTiun">Bossanova Ballroom</a>, on Portland's East Side!</h3>
+            <!-- BEGIN Wednesday -->
+            <div class="box section">
+              <h1 id="wednesday" class="has-text-centered">Wednesday 4/30</h1>
+              <div class="columns">
 
-            <div class="mapoverlay" onclick="style.pointerEvents='none'"></div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11181.483557086487!2d-122.6580938!3d45.5227415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x141f7e26a4c1c73b!2sThe+Bossanova+Ballroom!5e0!3m2!1sen!2sus!4v1500718342529" frameborder="0" width="100%" height="300px" allowfullscreen=""></iframe>
+                <div class="column is-narrow schedule-time">9:30am</div>
+                <div class="column" id="doors-open-tue">
+                  <a href="https://twitter.com/search?f=tweets&q=%23relaxml&src=typd"><strong>RelaxML: Eat Brunch and Take it Easy</strong></a></em>
+                  <p></p>
+                  <p>Still hanging around Portland after the conference? Make plans to meet up with your fellow attendees, on Twitter under the hashtag <a href="https://twitter.com/search?f=tweets&amp;q=%23relaxml&amp;src=typd">#relaxml</a> or in the <b>#relaxml</b> <a href="https://ml4all.slack.com/messages/CJ42WPHEY">Slack channel</a>.</p>
+                  <p>P.S. If you post pics under the hashtag, you'll get a special offer for next year! ;)</p>
+                </div>
+              </div>
 
-            <p><br><br>The <a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a> is ADA accessible, with some restrictions.</p>
-            <p>For more info, contact the venue at <a href="tel:5032067630">(503) 206-7630</a></p>
-          </div>
-        </div>
-          </div>
+            </div>
+            <!-- END Wednesday -->
+
+            <div class="section box" id="venues">
+              <div class="column">
+                <h2 class="has-text-centered"><a name="venue-info"></a>MAIN VENUE</h2>
+                <h3><a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a>, on Portland's East Side!</h3>
+
+                <div class="mapoverlay" onclick="style.pointerEvents='none'"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11181.483557086487!2d-122.6580938!3d45.5227415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x141f7e26a4c1c73b!2sThe+Bossanova+Ballroom!5e0!3m2!1sen!2sus!4v1500718342529" frameborder="0" width="100%" height="300px" allowfullscreen=""></iframe>
+
+                <p><br><br>The <a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a> is ADA accessible, with some restrictions.</p>
+                <p>For more info, <strong>contact the venue</strong> at <a href="tel:5032067630">(503) 206-7630</a></p>
+
+                <h2 class="has-text-centered"><a name="venue-info"></a>PARTY VENUE</h2>
+                <h3><a href="https://goo.gl/maps/kzJKJP8EZRF2">Pips &amp; Bounce</a>, just a 10min walk from the main venue!</h3>
+
+                <div class="mapoverlay" onclick="style.pointerEvents='none'"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11182.705889683368!2d-122.657199!3d45.516591!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34cf4e2743f3e42c!2sPips+%26+Bounce!5e0!3m2!1sen!2sus!4v1556068513332!5m2!1sen!2sus" frameborder="0" width="100%" height="300px" allowfullscreen=""></iframe>
+
+                <p><br><br>The <a href="https://goo.gl/maps/kzJKJP8EZRF2">Pips &amp; Bounce</a> is ADA accessible, with no restrictions.</p>
+                <p>For more info, <strong>contact the venue</strong> at <a href="tel:5039284664">(503) 928-4664</a></p>
+              </div>
+            </div>
+
+            <div class="section box" id="bike-ride-details">
+              <div class="columns">
+                <div class="column is-10 is-offset-1">
+                  <div class="content">
+                    <style>
+                      #bike-ride-details p {
+                        margin-top: 1.5em;
+                      }
+                    </style>
+
+                    <p>
+                      <h1 class="has-text-centered">Exploring The City Neural Network by Bike</h1>
+                      <h3 class="has-text-centered">by <a href="http://twitter.com/adron">Adron Hall</a></h3>
+                    </p>
+
+                    <p>
+                      <ul style="list-style-type: none; margin-left: 0;">
+                        <li><strong>When: </strong><a href="#bike-ride">2-4pm, Sunday 4/28</a></li>
+                        <li><strong>Where: </strong>Meet in the parking lot of <a href="https://goo.gl/maps/VGMZrw3aQ342">Bossanova Ballroom</a></li>
+                      </ul>
+                    </p>
+
+                    <p>The ride will be what I'd call a "slow ride", which is a super chill, easy going, roll through neighborhoods on the east side of Portland, down through the hip inner south east, and then back up around the waterfront.</p>
+
+                    <p>I'll also provide a run down of a little Portland information about its wonky history, the neighborhood layout (check out point 2 on the map for instance, it's called Ladd's Addition), the awesome bridges the city has (two are unique in north America to Portland!), and more.</p>
+
+                    <p><img src="images/ml4all-ride.png"/></p>
+
+                    <p>In addition we'll also make a number of stops for photos, a coffee, and prospective a beer if the crew is up for it. We'll leave at 2pm, and wrap up at 4pm in time to swing by our respective hotels and such before the evening reception.</p>
+
+                    <p>Our starting point is shown above, it's a little hard to see but is denoted by a green dot! Basically we're going to start at the Bossonova Ballroom Parking Lot and depart from there.</p>
+
+                    <p><a href="https://goo.gl/maps/VGMZrw3aQ342"><img src="images/ml4all-ride-parking.png"/></a></p>
+
+                    <p><h4>BIKES @ Biketown!</h4>
+                    You may ask, but what if I don’t have a bike, I'm coming into town for this? Well, Portland has you covered! The easiest way is to pick up one of Portland’s many bike share bikes via <a href="https://www.biketownpdx.com/">Biketown</a>.</p>
+
+                    <p><a href="https://www.biketownpdx.com/"><img src="images/ml4all-ride-biketown.png"/></a></p>
+                  </div>
+
+                </div>
+              </div>
+           </div>
+
+            <div class="section box" id="talk-abstracts">
+              <div class="columns">
+                <div class="column is-10 is-offset-1">
+                  <div class="content">
+                    <h1 class="has-text-centered">Talk Abstracts</h1>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-paige-bailey">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/paige-bailey.jpg" alt="Paige Bailey">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Paige Bailey</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/DynamicWebPaige">@DynamicWebPaige, Google</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#paige-bailey"><em>Workshop: TensorFlow Docs Sprint</em></a></h3>
+                        <h5><a href="schedule.html#paige-bailey"><em>Sunday, 4/28 @ 9:30am</em></a></h5>
+                        <p>This workshop, led by Paige Bailey, will focus on improving the documentation for TensorFlow, a popular open-source ML framework. You will learn how to document an API symbol, and how to make your first pull request to the TensorFlow repo. Beginners are welcome: new to TensorFlow, or new to open-source!</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-nicolle-merrill">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/nicolle-merrill.png" alt="Nicolle Merrill">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Nicolle Merrill</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/pdxnicolle">@pdxnicolle, Future Skills</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#nicolle-merrill"><em>Workshop: How to Have Curious Conversations</em></a></h3>
+                        <h5><a href="schedule.html#nicolle-merrill"><em>Sunday, 4/28 @ 9:30am</em></a></h5>
+                        <p>In this workshop, led by Nicolle Merrill, participants will learn techniques and strategies to find collaborators, strike up conversations with strangers, ask curious questions, and exit dying conversations. Together, you will embrace awkwardness and experiment with different conversational styles. Introverts strongly encouraged to attend.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-andrew-ferlitsch">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/Andrew-Ferlitsch.png" alt="Andrew Ferlitsch">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Andrew Ferlitsch</p>
+                                <p class="subtitle is-6"><a href="https://www.linkedin.com/in/andrew-ferlitsch">@andrew-ferlitsch, Google</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#andrew-ferlitsch"><em>Workshop: Getting Started with Keras and OpenCV for Computer Vision</em></a></h3>
+                        <h5><a href="schedule.html#andrew-ferlitsch"><em>Sunday, 4/28 @ 12:30pm</em></a></h5>
+                        <p>In this 4hr workshop, led by Andrew Ferlitsch, you will learn how to use Keras (and openCV) from Python, for Computer Vision. This is an in-depth hands-on exercise intended for software engineers that are interested in expanding their skills to include machine learning.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-oz-du-soleil">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/oz-du-soleil.png" alt="Oz du Soleil">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Oz du Soleil</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/OzExcel">@OzExcel, Microsoft Excel MVP</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#oz-du-soleil"><em>Rattlers</em></a></h3>
+                        <h5><a href="schedule.html#oz-du-soleil"><em>Sunday, 4/28 @ 8:00pm</em></a></h5>
+                        <p>Oz du Soleil will share a deeply personal narrative describing his path from rebelious teen to one of a handful of Excel MVPs world-wide.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-wendy-bukoski">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/wendy-bukoski.png" alt="Wendy Bukoski">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Wendy Bukoski</p>
+                                <p class="subtitle is-6"><a href="https://katu.com/features/everyday-heroes/everyday-heroes-wendy-bukoski">Everyday Heroes, FISH Vancouver</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#wendy-bukoski"><em>Data Collection On the Streets</em></a></h3>
+                        <h5><a href="schedule.html#wendy-bukoski"><em>Sunday, 4/28 @ 8:30pm</em></a></h5>
+                        <p>Wendy Bukoski will discuss the challenges of data collection on the streets, and her experience conducting our regional Point-In-Time Survey of the homeless population this year.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-dr-melissa-santos">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/melissa-santos.jpg" alt="Dr. Melissa Santos">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Dr. Melissa Santos</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/ansate">@ansate, Pingboard</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#dr-melissa-santos"><em>YOU Can Predict the Future</em></a></h3>
+                        <h5><a href="schedule.html#dr-melissa-santos"><em>Monday, 4/29 @ 9:00am</em></a></h5>
+                        <p>Let’s get started with forecasting! We’ll look at simple linear trends, polynomial fits, ARIMA models, and using Facebook’s Prophet library. The goal is to introduce you to forecasting and help you try modeling the future. We will also look at goodness-of-fit measures so we can compare our models.</p>
+                      </div>
+                    </div>
+
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-wale-akinfaderin">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/wale-akinfaderin.jpg" alt="Wale Akinfaderin">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Wale Akinfaderin</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/WaleAkinfaderin">@WaleAkinfaderin, Lowe’s</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#wale-akinfaderin"><em>The Creative Art of Engineering Bespoke Features</em></a></h3>
+                        <h5><a href="schedule.html#wale-akinfaderin"><em>Monday, 4/29 @ 9:45am</em></a></h5>
+                        <p>Feature engineering is rudimentary to applying machine learning models to raw and messy data. From multiple imputations for missing data to filtering in feature selection for issues like information redundancy, crafting bespoke features can be used to understand the underlying patterns in a dataset, facilitate the machine learning processing pipeline and improve model evaluation metrics.</p>
+
+                        <p>In this talk, we will explore feature extraction and representation techniques for numeric, categorical and spatio-temporal features. We’ll also highlight other advance feature engineering methods like non-linear encoding for linear algorithms, topological filters, data leakage and best practices.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-sachi-parikh">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/sachi-parikh.png" alt="Sachi Parikh">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Sachi Parikh</p>
+                                <p class="subtitle is-6"><a href="https://medium.com/@parikhsachi">@parikhsachi, Student</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#sachi-parikh"><em>My Journey Learning ML and AI through Self Study as a High School Student</em></a></h3>
+                        <h5><a href="schedule.html#sachi-parikh"><em>Monday, 4/29 @ 10:45am</em></a></h5>
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-tyrone-poole">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/tyrone-poole.jpg" alt="Tyrone Poole">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Tyrone Poole</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/oneapporegon">@oneapporegon, OneApp</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#tyrone-poole"><em>Creating Access to Housing in America</em></a></h3>
+                        <h5><a href="schedule.html#tyrone-poole"><em>Monday, 4/29 @ 11:30am</em></a></h5>
+                        <p>Inventor of OneApp, Tyrone Poole will tell the story of his personal journey from houseless disabled former fireman to tech CEO, and the mission that drives him; creating access to housing for everyone in America.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-erika-pelaez">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/erika-pelaez.jpg" alt="Erika Pelaez">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Erika Pelaez</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/midoridancer">@midoridancer, Data Scientist</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#erika-pelaez"><em>Building a Machine Learning Classifier to Listen to Killer Whales</em></a></h3>
+                        <h5><a href="schedule.html#erika-pelaez"><em>Monday, 4/29 @ 1:45pm</em></a></h5>
+                        <p>Did you know that Machine Learning can help protect killer whales?</p>
+
+                        <p><a href="https://github.com/orcasound">Orcasound</a> is a magnificent open source project for people to connect to their neighbor killer whales of the pacific northwest. They provide a platform that continuously broadcasts the underwater sounds from the Puget Sound area to anyone willing to listen. Come to my talk and I’ll show you how we’re applying Machine Learning with the Scikit-learn Python library against web scraped audio to build models that can be used for signal collection and classification.</p>
+
+                        <p>Avid users spend time listening to mostly noise or ships but frankly the majority is there just to hear the orca sounds. The present talk will narrate the process we are following to automatically detect and classify orca vs non orca (false killer whale and humpback whale) sounds.</p>
+
+                        <p>The first challenge faced with this project was getting labeled data as the raw transmissions are unlabeled so my first approach was to build a dataset from scratch by web scraping audio from the internet using Beautiful soup then I used a bash script for making sure all the files had a maximum duration of 5s as this is the duration of the files that orcasound saves. The feature extraction of the audio files was handled with the librosa library from Python. I finally built a Random Forest Classifier with the scikit-learn Python library that was able to reach an accuracy of 99 +/-2% with a 10 fold cross validation. The next steps will be to have the model accessible through an API and send the collected signals to it for classification, after a signal is detected a notification could be send to the users so they don’t have to listen to all the noise.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-maria-khalusova">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/maria-khalusova.png" alt="Maria Khalusova">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Maria Khalusova</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/mariaKhalusova">@mariaKhalusova, JetBrains</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#maria-khalusova"><em>Machine Learning Model Evaluation Metrics</em></a></h3>
+                        <h5><a href="schedule.html#maria-khalusova"><em>Monday, 4/29 @ 2:30pm</em></a></h5>
+                        <p>Choosing the right evaluation metric for your machine learning project is crucial, as it decides which model you’ll ultimately use. Those coming to ML from software development are often self-taught, but practice exercises and competitions generally dictate the evaluation metric. In a real-world scenario, how do you choose an appropriate metric? This talk will explore the important evaluation metrics used in regression and classification tasks, their pros and cons, and what is important when choosing one.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-amy-hodler">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/amy-hodler.png" alt="Amy Hodler">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Amy Hodler</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/amyhodler">@amyhodler, Neo4j</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#amy-hodler"><em>Improving ML Predictions with Connected Feature Extraction</em></a></h3>
+                        <h5><a href="schedule.html#amy-hodler"><em>Monday, 4/29 @ 3:30pm</em></a></h5>
+                        <p>One of the most practical ways to improve our machine learning predictions right away is by using graphs for connected features. You’ll learn how graph algorithms can provide more predictive features as well as aid in feature selection to reduce overfitting.</p>
+
+                        <p>In this session, you’ll hear about a link prediction example for collaboration with tips on training and evaluating a model using Neo4j and Spark. We’ll compare several models and show measurable improvements in accuracy, precision, and recall by folding in graph-based features.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-aeva-van-der-veen">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/aeva-van.png" alt="Aeva van der Veen">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Aeva van der Veen</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/aevavoom">@aevavoom, OSS Advocate</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#aeva-van-der-veen"><em>Gaming Rigs and ML Pipelines: How to Get Started with the Tools You Already Have</em></a></h3>
+                        <h5><a href="schedule.html#aeva-van-der-veen"><em>Monday, 4/29 @ 4:00pm</em></a></h5>
+                        <p>If you think that only big tech companies or PhD scientists can use ML &amp; AI, I'd like to show you that an individual open-source enthusiast can build and train a model on commodity hardware using Open Data - and then scale that up on a public cloud.</p>
+
+                        <p>And if you're a PC gamer, you probably already have all the tools you need!</p>
+
+                        <ul>
+                          <li><a href="https://www.fast.ai/">fast.ai</a>, an easy-to-learn Python ML framework</li>
+                          <li>nvidia-docker on an Ubuntu Gaming PC</li>
+                          <li>public-domain GIS imagery</li>
+                          <li>a couple terabytes of storage space and a fast internet connection</li>
+                        </ul>
+                        <p>This talk grew out of a startup competition last year: we tried to use public-domain satellite imagery to help predict and prevent forest fires. Even though we chose not to pursue this as a business, it's an excellent example of how combine open source software, public data, and a gaming PC to build an ML pipeline.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-dr-catherine-nelson">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/catherine-nelson.jpg" alt="Dr. Catherine Nelson">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Dr. Catherine Nelson</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/DrCatNelson">@DrCatNelson, Concur Labs</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#dr-catherine-nelson"><em>Practical Privacy in Machine Learning Systems</em></a></h3>
+                        <h5><a href="schedule.html#dr-catherine-nelson"><em>Monday, 4/29 @ 4:45pm</em></a></h5>
+                        <p>Data privacy is a huge topic right now for any business using personal data. People are questioning whether they should allow companies to collect data about them, and they are asking about what happens to that data after they hand it over. Machine learning systems often depend on data collected from their users to make accurate predictions. But can we build cool products powered by machine learning while still providing privacy for our users?</p>
+
+                        <p>To start with, privacy is not a binary choice. There are many options available to developers for adding privacy to ML. In this talk, I’ll discuss some practical options, from simple methods to differential privacy, and show some examples of how we can incorporate these into real products. I’ll show how we’ve built a Data Washing Machine that allows us to provide nuanced levels of privacy via a simple API. I’ll also explore the tradeoff between user privacy and model accuracy, and show how we can still make accurate predictions with our models even when privacy is increased.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-dr-sarah-kaiser">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/sarah-kaiser.jpg" alt="Dr. Sarah Kaiser">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Dr. Sarah Kaiser</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/crazy4pi314">@crazy4pi314, Pensar Develop</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#dr-sarah-kaiser"><em>What is Quantum Machine Learning, and Is It A Thing?</em></a></h3>
+                        <h5><a href="schedule.html#dr-sarah-kaiser"><em>Tuesday, 4/30 @ 9:00am</em></a></h5>
+                        <p>Description:In the rush to add the word _quantum_ to everything from batteries to banking, Quantum machine learning has entered the fray. A perfect combination of buzzwords that will get all of the funding....right? In this talk I want to look at: quantum computers are and how you program one. With this context, we can look at what machine learning tasks are being explored for possible speedups with quantum computing.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third" id="abstract-seth-juarez-siyu-yang">
+                        <div class="card" id="abstract-siyu-yang">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/siyu-yang.png" alt="Siyu Yang">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Siyu Yang</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/yangsiyu_">@yangsiyu_, Microsoft</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <br/>
+                        <div class="card" id="abstract-seth-juarez">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/seth-juarez.png" alt="Seth Juarez">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Seth Juarez</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/sethjuarez">@sethjuarez, Microsoft</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#seth-juarez-siyu-yang"><em>Deep Learning for Computer Vision with Applications for Wildlife Conservation</em></a></h3>
+                        <h5><a href="schedule.html#seth-juarez-siyu-yang"><em>Tuesday, 4/30 @ 9:45am</em></a></h5>
+                        <p>Deep Learning is one of the buzziest of tech buzz words at the moment. This session is designed to remove the mysticism from this amazing form of Artificial Intelligence.</p>
+                        <p>Attendees will be led through the wilderness of the foundational principles underlying modern machine learning until they reach the oasis of a full-fledged understanding of deep learning for computer vision.</p>
+                        <p>While this session is not for the faint of heart, initiates will attain a solid understanding of the basics of machine learning all the way through powerful image-deciphering convolutional neural networks.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-hannes-hapke">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/hannes-hapke.jpg" alt="Hannes Hapke">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Hannes Hapke</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/hanneshapke">@hanneshapke, Caravel</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#hannes-hapke"><em>MLOps for non-DevOps folks, a.k.a. “I have a model, now what?!</em></a></h3>
+                        <h5><a href="schedule.html#hannes-hapke"><em>Tuesday, 4/30 @ 10:45am</em></a></h5>
+                        <p>The prospect of developing and training machine learning models on datasets is exciting. While many conference attendees understand the potential value of deploying machine learning models and may even have a model in mind, not all are aware of the frameworks and tools to needed release them in the real world.</p>
+
+                        <p>This talk will present an applicable framework to bring attendees’ machine learning models to life. Hannes will introduce the audience to tools including Tensorflow Serving and Google ML Engine and discuss them in the context of other popular serving applications such as Kubeflow, AWS Sagemaker, and Azure Machine Learning. He’ll guide the audience through a sample (live) deployment and highlight things to watch out for, such as scaling and costs, as well as the pitfalls of model versioning.</p>
+
+                        <p>Attendees will leave the talk familiarized with popular approaches to machine learning model deployment, as well as an actual framework they can use to deploy their models for the greater good for the world.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-jules-damji">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/jules-damji.png" alt="Jules S. Damji">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Jules S. Damji</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/2twitme">@2twitme, Databricks</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#jules-damji"><em>MLflow: Infrastructure for a Complete Machine Learning Life Cycle</em></a></h3>
+                        <h5><a href="schedule.html#jules-damji"><em>Tuesday, 4/30 @ 11:30am</em></a></h5>
+                        <p>ML development brings many new complexities beyond the traditional software development lifecycle. Unlike in traditional software development, ML developers want to try multiple algorithms, tools, and parameters to get the best results, and they need to track this information to reproduce work. In addition, developers need to use many distinct systems to productionize models. To address these problems, many companies are building custom “ML platforms” that automate this lifecycle, but even these platforms are limited to a few supported algorithms and to each company’s internal infrastructure.</p>
+
+                        <p>In this session, we introduce <a href="mlflow.org">MLflow</a>, a new open source project from Databricks that aims to design an open ML platform where organizations can use any ML library and development tool of their choice to reliably build and share ML applications. MLflow introduces simple abstractions to package reproducible projects, track results, and encapsulate models that can be used with many existing tools, accelerating the ML lifecycle for organizations of any size.</p>
+
+                        <p>With a short demo, you see a complete ML model life-cycle example, you will walk away with: MLflow concepts and abstractions for models, experiments, and projects How to get started with MLFlow Using tracking Python APIs during model training Using MLflow UI to visually compare and contrast experimental runs with different tuning parameters and evaluate metrics.</p>
+                      </div>
+                    </div>
+
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third" id="abstract-anushka-nair-charu-nair">
+                        <div class="card" id="abstract-anushka-nair">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/anushka-nair.png" alt="Anushka Nair">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Anushka Nair</p>
+                                <p class="subtitle title is-6"><a href="#">Scientist and Activist</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <br />
+                        <div class="card" id="abstract-charu-nair">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/charu-nair.png" alt="Charu Nair">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Charu Nair</p>
+                                <p class="subtitle title is-6"><a href="#">Scientist and Activist</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#anushka-nair-charu-nair"><em>Scaling Human(e)ity in AI</em></a></h3>
+                        <h5><a href="schedule.html#anushka-nair-charu-nair"><em>Tuesday, 4/30 @ 1:45pm</em></a></h5>
+                        <p>Two Girls of Color. Two Personal Life Experiences. Two Professionals and Speakers.</p>
+                        <p>One Awarded an Asteroid for her work among dozen national and international awards,, a TedxYouth speaker on Implicit Bias and Stanford+ Harvard student researcher.</p>
+                        <p>Another a Professor in Humanities delving into these co-related spaces for some decades. Launch team for India's first laptop, IBM in Philippines, World Trade Center in USA.</p>
+                        <p>Gritty travelers, 100 countries combined. Both leading equity practitioners in their communities.</p>
+                        <p>Together they will talk of "DiversityForce" - how we can astutely be a force to scale human(e)ity in AI. It will be powerful and speak to many interlinked communities.</p>
+                      </div>
+                    </div>
+
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-zhi-yang">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/zhi-yang.png" alt="Zhi Yang">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Zhi Yang</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/zhiiiyang">@zhiiiyang, PhD Candidate, USC</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#zhi-yang"><em><br>Hierarchical Topic Modeling in Cancer Research</em></a></h3>
+                        <h5><a href="schedule.html#zhi-yang"><em>Tuesday, 4/30 @ 2:30pm</em></a></h5>
+                        <p>Topic models have been widely applied to extract topics from various range of documents or collections of texts, i.e., online customers reviews, medical records, scientific journals, legal documents, books and etc. Its application facilitates the process for us to quickly understand the most featured and commonly shared information embedded texts without actually reading through the entire collection. In addition, topic models also allow us to access the contribution of each topic and its representations across different documents.</p>
+
+                        <p>Human genomes have been exposed to an assortment of mutational processes by contributing to unique patterns of somatic mutations. What would happen if we apply the same concept to the somatic mutations obtained from the cancer patients and look for "topics" of mutations? What would these "topics" tell us about the most important information for our health, genetic, risk factors for cancer and something more that slip under the radar?</p>
+
+                        <p>Shiraishi et al's have proposed a topic model targeted for somatic mutations to capture the characteristics and burdens contributed by mutational processes. By closely examining the burdens, we'd like to compare them across different categories, say, for example, time, cancer subtype, ethnicity, smoking history, etc.</p>
+
+                        <p>Then, we'd like to develop the statistical machinery to infer the difference between the mutational profiles across different categories and associate the variations with the know exposures. This tool is potentially useful for identifying novel and existing mutational processes and correlating them with risk factors in which later can be used to monitor any treatment effects in personalized medicine and targeted therapy.</p>
+                      </div>
+                    </div>
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-karl-weinmeister">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/karl-weinmeister.png" alt="Karl Weinmeister">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Karl Weinmeister</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/kweinmeister">@kweinmeister, Google</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#karl-weinmeister"><em>Build, Train, and Serve Your ML Models on Kubernetes with Kubeflow</em></a></h3>
+                        <h5><a href="schedule.html#karl-weinmeister"><em>Tuesday, 4/30 @ 3:30pm</em></a></h5>
+                        <p>Distributing ML workloads across multiple nodes has become common. To achieve higher and higher levels of accuracy, data scientists are using more data and more complex models than ever before.</p>
+
+                        <p>Kubeflow is an open-source platform for model building, serving, and training. It is built on industry standard Kubernetes infrastructure and runs in multiple clouds and on-premises.</p>
+
+                        <p>In this session, we'll discuss the problems that Kubeflow solves, and how you can use it to create reproducible ML workflows.</p>
+
+                      </div>
+                    </div>
+
+
+                    <hr/>
+                    <div class="columns">
+                      <div class="column is-one-third">
+                        <div class="card" id="abstract-damon-danieli">
+                          <div class="card-image">
+                            <figure class="image is-square">
+                              <img src="images/speakers/damon-danieli.jpg" alt="Damon Danieli">
+                            </figure>
+                          </div>
+                          <div class="card-content">
+                            <div class="media">
+                              <div class="media-content">
+                                <p class="title is-4">Damon Danieli</p>
+                                <p class="subtitle is-6"><a href="https://twitter.com/damondanieli">@damondanieli, DocuSign</a></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="column is-two-thirds">
+                        <h3><a href="schedule.html#damon-danieli"><em>Time-Series Behavioral Analysis for Churn Prediction</em></a></h3>
+                        <h5><a href="schedule.html#damon-danieli"><em>Tuesday, 4/30 @ 4:00pm</em></a></h5>
+                        <p>This talk covers the data engineering, feature extraction, and the processing for predicting future user behavior.  By the end of the presentation, you should have a direction to explore if you are building your own system as well as some concrete patterns that we found worked for us.</p>
+
+                        <p>We will use real-world examples for B2B SaaS churn prediction, but this talk is equally applicable to predicting any type of outcome that is correlated with user behavior such as conversion to a paying customer, upsell to additional products, etc.</p>
+
+                        <p>We will present lessons learned from several iterations of productizing a system that can take product usage user telemetry events (from Mixpanel, Amplitude, Heap, homegrown, etc) and combine that with business objects (Salesforce) and the application database.  We will include some mistakes we’ve made along the way.</p>
+
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+           </div>
+
         </div>
       </div>
     </div>
-<!--     <div class="section is-fullwidth" style="padding: 3rem 0;">
-      <div class="mapoverlay" onclick="style.pointerEvents='none'"></div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11181.483557086487!2d-122.6580938!3d45.5227415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x141f7e26a4c1c73b!2sThe+Bossanova+Ballroom!5e0!3m2!1sen!2sus!4v1500718342529" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
- -->    <hr />
+
+    <hr />
+
     <div class="container section">
      <div class="columns">
       <div class="column is-four is-offset-1">
